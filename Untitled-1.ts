@@ -79,6 +79,7 @@
         async function startVideo() {
             const stream = await navigator.mediaDevices.getUser Media({ video: {} });
             video.srcObject = stream;
+            video.srcObject = stream;
         }
 
         async function recognizeFaces() {
